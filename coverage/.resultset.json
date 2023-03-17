@@ -48,6 +48,25 @@
           null
         ]
       },
+      "/Users/pedrosouza/projects/opedrosouza/api_with_auth_boilerplate/app/controllers/health_check_controller.rb": {
+        "lines": [
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/pedrosouza/projects/opedrosouza/api_with_auth_boilerplate/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          1,
+          null
+        ]
+      },
       "/Users/pedrosouza/projects/opedrosouza/api_with_auth_boilerplate/app/channels/application_cable/channel.rb": {
         "lines": [
           null,
@@ -69,15 +88,6 @@
           0,
           0,
           null,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/pedrosouza/projects/opedrosouza/api_with_auth_boilerplate/app/controllers/application_controller.rb": {
-        "lines": [
-          null,
-          0,
           0
         ],
         "branches": {
@@ -111,6 +121,6 @@
         }
       }
     },
-    "timestamp": 1679023692
+    "timestamp": 1679097473
   }
 }
