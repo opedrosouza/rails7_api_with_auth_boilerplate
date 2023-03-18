@@ -27,6 +27,8 @@ gem "rack-cors"
 
 gem "dotenv-rails", "~> 2.8", ">= 2.8.1"
 
+gem "active_model_serializers", "~> 0.10.13"
+
 group :development, :test do
   # Great Ruby debugging companion: pretty print Ruby objects to visualize their structure. Supports custom object formatting via plugins
   gem "awesome_print", "~> 1.9", ">= 1.9.2"

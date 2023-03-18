@@ -3,4 +3,7 @@
 
 Rails.application.routes.draw do
   get "health_check", to: "health_check#index"
+
+  # Create and Edit Accounts
+  resources :registrations, only: %i[create update]
 end

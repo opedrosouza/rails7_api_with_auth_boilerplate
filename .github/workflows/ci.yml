@@ -33,16 +33,9 @@ jobs:
           bundler: default
           bundler-cache: true
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          cache: yarn
-
       - name: Install dependencies
         run: |
           sudo apt-get install -y -qq libvips
-          yarn install --frozen-lockfile
 
       - name: Rubocop Check
         run: bundle exec rubocop
