@@ -43,7 +43,7 @@ group :development, :test do
   # Code style checking for RSpec files. A plugin for the RuboCop code style enforcing & linting tool.
   gem "rubocop-rspec", "~> 2.18", ">= 2.18.1"
   # A collection of RuboCop cops to check for performance optimizations in Ruby code.
-  gem "rubocop-performance", "~> 1.16"
+  gem "rubocop-performance", "~> 1.18"
 end
 
 group :test do
